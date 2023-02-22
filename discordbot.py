@@ -5,7 +5,7 @@ app = commands.Bot(command_prefix='/', intents=discord.Intents.all())
 
 @app.event
 async def on_ready():
-    print('f{app.user.name} 연결 성공')
+    print(f'{app.user.name} 연결 성공')
     await app.change_presence(status=discord.Status.online, activity=None)
 
 @app.command()
