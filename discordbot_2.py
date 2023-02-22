@@ -19,7 +19,7 @@ async def 투표(ctx, *args):
 
     await ctx.send('투표 시작!!')
 
-    for i in args:
+    for arg in args:
         code_block = await ctx.send(f'```{arg}```')
         await code_block.add_reaction("👍")
 
