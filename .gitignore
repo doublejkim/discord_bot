@@ -203,4 +203,5 @@ poetry.toml
 # ruff
 .ruff_cache/
 
+.discordbot_token
 # End of https://www.toptal.com/developers/gitignore/api/macos,python
